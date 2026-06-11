@@ -1,8 +1,7 @@
 # LG-DCD
 
 This repository contains the LG-DCD implementation for privacy-preserving
-dynamic community detection. It keeps only the code and data needed to run
-LG-DCD.
+dynamic community detection. 
 
 ## Layout
 
@@ -95,7 +94,7 @@ python src/LGDCD.py --exp-num 10
 
 ### Common Experiment Commands
 
-Run the default paper-style budget sweep on Forum:
+Run the main test on Forum:
 
 ```bash
 python src/LGDCD.py --datasets Forum --eps 1.0,2.0,4.0 --windows 5 --exp-num 10
